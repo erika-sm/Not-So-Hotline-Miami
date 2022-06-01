@@ -25,6 +25,7 @@ const addBackground = (root) => {
   const whiteBox = document.createElement("div");
 
   whiteBox.style.zIndex = 100;
+
   whiteBox.style.position = "absolute";
   whiteBox.style.top = `${GAME_HEIGHT}px`;
   whiteBox.style.height = "100px";
